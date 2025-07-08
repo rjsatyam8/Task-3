@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #222;
+  margin: 20px;
+}
+
+article {
+  background-color: #ffffff;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  max-width: 700px;
+  margin: auto;
+}
+
+h1 {
+  color: #2e7d32;
+  font-size: 24px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.city-image {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  margin: 15px 0;
+  border-radius: 10px;
+  border: 2px solid #2e7d32;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.city-image:hover {
+  transform: scale(1.03);
+}
+
